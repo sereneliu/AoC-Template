@@ -1,1 +1,2 @@
-puzzle_input = open('day12.txt', 'r').read().split('\n')
+from aocd import get_data
+puzzle_input = get_data(day=12, year=2023).split('\n')
